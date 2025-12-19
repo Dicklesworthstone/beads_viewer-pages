@@ -1,0 +1,98 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "generated_at": "2025-12-18T23:25:36.44113-05:00",
+    "phase2_ready": false,
+    "issue_count": 487,
+    "compute_time_ms": 0
+  },
+  "quick_ref": {
+    "open_count": 0,
+    "actionable_count": 0,
+    "blocked_count": 0,
+    "in_progress_count": 0,
+    "top_picks": []
+  },
+  "recommendations": [],
+  "quick_wins": [],
+  "blockers_to_clear": [],
+  "project_health": {
+    "counts": {
+      "total": 487,
+      "open": 0,
+      "closed": 487,
+      "blocked": 0,
+      "actionable": 0,
+      "by_status": {
+        "closed": 487
+      },
+      "by_type": {
+        "bug": 28,
+        "chore": 8,
+        "epic": 39,
+        "feature": 24,
+        "task": 388
+      },
+      "by_priority": {
+        "0": 3,
+        "1": 131,
+        "2": 291,
+        "3": 59,
+        "4": 3
+      }
+    },
+    "graph": {
+      "node_count": 487,
+      "edge_count": 629,
+      "density": 0.002657574298003228,
+      "has_cycles": false,
+      "phase2_ready": false
+    },
+    "velocity": {
+      "closed_last_7_days": 463,
+      "closed_last_30_days": 487,
+      "avg_days_to_close": 0.817512473328908,
+      "weekly": [
+        {
+          "week_start": "2025-12-15T00:00:00Z",
+          "closed": 463
+        },
+        {
+          "week_start": "2025-12-08T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2025-12-01T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2025-11-24T00:00:00Z",
+          "closed": 24
+        },
+        {
+          "week_start": "2025-11-17T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2025-11-10T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2025-11-03T00:00:00Z",
+          "closed": 0
+        },
+        {
+          "week_start": "2025-10-27T00:00:00Z",
+          "closed": 0
+        }
+      ]
+    }
+  },
+  "commands": {
+    "claim_top": "bd ready  # No top pick available",
+    "show_top": "bd ready  # No top pick available",
+    "list_ready": "bd ready",
+    "list_blocked": "bd blocked",
+    "refresh_triage": "bv --robot-triage"
+  }
+}

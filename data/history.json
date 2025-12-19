@@ -1,0 +1,2230 @@
+{
+  "generated_at": "2025-12-19T04:25:49Z",
+  "commits": [
+    {
+      "sha": "f26d9cfc03c45b9b676928a78065107271c03ad1",
+      "date": "2025-12-15T17:20:56-05:00",
+      "message": "feat(correlation): implement git history extractor (bv-64)",
+      "beads_added": [
+        "bv-63",
+        "bv-56",
+        "bv-64"
+      ]
+    },
+    {
+      "sha": "ecb55490e4aa47f59e8a205d9194b51eadffe753",
+      "date": "2025-12-15T17:23:25-05:00",
+      "message": "feat(correlation): implement co-committed file extraction (bv-65)",
+      "beads_added": [
+        "bv-65"
+      ]
+    },
+    {
+      "sha": "3d4645935139a662d9b102685e9078b84415a670",
+      "date": "2025-12-15T17:40:44-05:00",
+      "message": "fix(correlation): code review fixes for correlation package",
+      "beads_added": [
+        "bv-66",
+        "bv-60"
+      ]
+    },
+    {
+      "sha": "26ade4940beb8199d3be0a497fca9de6f2b156e3",
+      "date": "2025-12-15T17:52:31-05:00",
+      "message": "feat(correlation): implement temporal correlation (bv-68)",
+      "beads_added": [
+        "bv-53.1",
+        "bv-66",
+        "bv-68",
+        "bv-54",
+        "bv-67"
+      ]
+    },
+    {
+      "sha": "96e8c72725f2459bd88a657acfd25a41dfcef15f",
+      "date": "2025-12-15T17:56:25-05:00",
+      "message": "feat(correlation): implement confidence scoring model (bv-69)",
+      "beads_added": [
+        "bv-53.1",
+        "bv-69"
+      ]
+    },
+    {
+      "sha": "6c459aeaa38851631352ac6eb3aa8c0f3238a59d",
+      "date": "2025-12-15T17:59:13-05:00",
+      "message": "feat(correlation): implement reverse lookup commit→bead (bv-70)",
+      "beads_added": [
+        "bv-70"
+      ]
+    },
+    {
+      "sha": "7186d112be6dc4a8218fd9fb190752458e013026",
+      "date": "2025-12-15T18:11:22-05:00",
+      "message": "feat(ui): implement TUI history view (bv-71)",
+      "beads_added": [
+        "bv-71"
+      ]
+    },
+    {
+      "sha": "01e01f830c54732257da3c4d0fe7a6f5f7e1ee7f",
+      "date": "2025-12-15T18:17:19-05:00",
+      "message": "feat(ui): integrate history into detail pane (bv-72)",
+      "beads_added": [
+        "bv-55",
+        "bv-72"
+      ]
+    },
+    {
+      "sha": "94c128de8f86b5898d74b2c7771c7ba3ccc82650",
+      "date": "2025-12-15T18:25:58-05:00",
+      "message": "feat(ui): add history view keybindings (bv-73)",
+      "beads_added": [
+        "bv-73"
+      ]
+    },
+    {
+      "sha": "f4859173d7ea6c9b4c875fa6538364d45840fbf9",
+      "date": "2025-12-15T18:59:40-05:00",
+      "message": "feat(analysis): implement unified triage scoring (bv-147)",
+      "beads_added": [
+        "bv-147"
+      ]
+    },
+    {
+      "sha": "b6226c4666ef7d751289217cd4cffee64d27f3f9",
+      "date": "2025-12-15T19:03:11-05:00",
+      "message": "feat(analysis): implement triage reason generation (bv-148)",
+      "beads_added": [
+        "bv-185",
+        "bv-148"
+      ]
+    },
+    {
+      "sha": "21ccc04b4e5f2f092c301274340edac46c442416",
+      "date": "2025-12-15T19:06:59-05:00",
+      "message": "feat(correlation): implement history caching layer (bv-74)",
+      "beads_added": [
+        "bv-74",
+        "bv-185",
+        "bv-138"
+      ]
+    },
+    {
+      "sha": "327662fd7eefd76b888ce6533ce95be6d3f3eb88",
+      "date": "2025-12-15T19:15:22-05:00",
+      "message": "feat(cli): add Agent Swarm Protocol CLI commands (bv-139)",
+      "beads_added": [
+        "bv-184",
+        "bv-186",
+        "bv-139",
+        "bv-75"
+      ]
+    },
+    {
+      "sha": "8e56aee93c9a990b4195edc7cf71e3ecbce1da11",
+      "date": "2025-12-15T19:17:49-05:00",
+      "message": "feat(correlation): implement incremental history updates (bv-75)",
+      "beads_added": [
+        "bv-187",
+        "bv-184",
+        "bv-54"
+      ]
+    },
+    {
+      "sha": "e07b9c6470943867c189b12bf0c37be2d571517f",
+      "date": "2025-12-15T19:22:10-05:00",
+      "message": "feat(correlation): add streaming parser and batch extraction for large repos (bv-76)",
+      "beads_added": [
+        "bv-76",
+        "bv-188"
+      ]
+    },
+    {
+      "sha": "4c2d53b140a5f7f658d081d3accda20870a7a821",
+      "date": "2025-12-15T19:25:49-05:00",
+      "message": "test(correlation): expand unit test coverage for history feature (bv-77)",
+      "beads_added": [
+        "bv-77",
+        "bv-190",
+        "bv-189"
+      ]
+    },
+    {
+      "sha": "fd7f62dfa61e2180dd054b32e65f4194f1cca42e",
+      "date": "2025-12-15T19:26:53-05:00",
+      "message": "refactor: remove Agent Swarm Protocol (out of scope, use mcp_agent_mail)",
+      "beads_added": [
+        "bv-142",
+        "bv-132",
+        "bv-141",
+        "bv-144",
+        "bv-143",
+        "bv-140"
+      ]
+    },
+    {
+      "sha": "b52413c8acc52d34287f9afa547f897207b818f6",
+      "date": "2025-12-15T19:37:29-05:00",
+      "message": "feat(analysis): add time-to-impact and urgency signals to priority model (bv-81)",
+      "beads_added": [
+        "bv-81",
+        "bv-82"
+      ]
+    },
+    {
+      "sha": "345b0faad416bd8a6de8f28d137f5e977e2a5298",
+      "date": "2025-12-15T19:51:40-05:00",
+      "message": "feat(analysis): add priority explanations with what-if deltas (bv-83)",
+      "beads_added": [
+        "bv-83",
+        "bv-189",
+        "bv-58"
+      ]
+    },
+    {
+      "sha": "4d7ccf050bdbc761c81a663d583904432b310b70",
+      "date": "2025-12-15T19:57:01-05:00",
+      "message": "feat(main): add robot output filters (bv-84)",
+      "beads_added": [
+        "bv-84"
+      ]
+    },
+    {
+      "sha": "128581e2be2be8ee4944ec1777c8799756e7227b",
+      "date": "2025-12-15T20:04:31-05:00",
+      "message": "feat(robot): add usage hints and advanced graph metrics (bv-84)",
+      "beads_added": [
+        "bv-61"
+      ]
+    },
+    {
+      "sha": "4d95021ba28fe2e02d0623efe05ca8cc4e675b4e",
+      "date": "2025-12-15T20:10:05-05:00",
+      "message": "feat(analysis): add k-core, articulation, slack to insights + tests (bv-85/bv-187)",
+      "beads_added": [
+        "bv-187"
+      ]
+    },
+    {
+      "sha": "766a6a519269879abfe530f855e3034b09e8f261",
+      "date": "2025-12-15T20:37:22-05:00",
+      "message": "feat(analysis): complete bv-85 advanced graph signals with status tracking",
+      "beads_added": [
+        "bv-85"
+      ]
+    },
+    {
+      "sha": "063e0e02334721a6d04fdcb0eac91ad4ef4cabea",
+      "date": "2025-12-15T21:43:34-05:00",
+      "message": "feat(analysis): add parallelization gain metric (bv-129)",
+      "beads_added": [
+        "bv-181",
+        "bv-129",
+        "bv-94"
+      ]
+    },
+    {
+      "sha": "f6c8bb3b29fc2ab89fb9405a71b55212fd0731ac",
+      "date": "2025-12-15T21:54:45-05:00",
+      "message": "feat(analysis): implement top-k unlock set selection (bv-145)",
+      "beads_added": [
+        "bv-145"
+      ]
+    },
+    {
+      "sha": "999260f5089da5222ed456aa183f76f61dd538d2",
+      "date": "2025-12-15T22:39:33-05:00",
+      "message": "feat(analysis): add label health types and extraction functions (bv-100, bv-101)",
+      "beads_added": [
+        "bv-162",
+        "bv-152",
+        "bv-99",
+        "bv-100",
+        "bv-101"
+      ]
+    },
+    {
+      "sha": "5400e2b1debe4c80032dc32b68461aee229ae58d",
+      "date": "2025-12-15T23:05:09-05:00",
+      "message": "feat(analysis): implement coverage set recommendations (bv-152)",
+      "beads_added": [
+        "bv-152",
+        "bv-163",
+        "bv-166",
+        "bv-164",
+        "bv-135"
+      ]
+    },
+    {
+      "sha": "cc289c6da8305eedd8f847cbbc439b22195c5d5c",
+      "date": "2025-12-15T23:12:31-05:00",
+      "message": "feat: Implement label health metrics, drift alerts, and robot history tests",
+      "beads_added": [
+        "bv-183"
+      ]
+    },
+    {
+      "sha": "581f6c61b92997e9d92bb51e79e76aa95a159f53",
+      "date": "2025-12-15T23:17:44-05:00",
+      "message": "feat(analysis): add velocity/freshness tests, close multiple P1 epics",
+      "beads_added": [
+        "bv-133",
+        "bv-77",
+        "bv-119",
+        "bv-80",
+        "bv-62",
+        "bv-53",
+        "bv-120"
+      ]
+    },
+    {
+      "sha": "e6ccd6ff79967478cd582f1aeda7a838db984e6d",
+      "date": "2025-12-15T23:23:45-05:00",
+      "message": "feat(beads): add static pages epic with SQLite+sql.js architecture",
+      "beads_added": [
+        "bv-104",
+        "bv-105"
+      ]
+    },
+    {
+      "sha": "907330dc84e9cb0521d003a1f9f4f98a29b62d6a",
+      "date": "2025-12-15T23:39:18-05:00",
+      "message": "feat(analysis): implement label subgraph extraction and PageRank (bv-113, bv-114)",
+      "beads_added": [
+        "bv-114",
+        "bv-113"
+      ]
+    },
+    {
+      "sha": "d74ea8f93236ef2a5d20e2d045e27e617fd77ebc",
+      "date": "2025-12-15T23:41:45-05:00",
+      "message": "feat(analysis): implement label attention score algorithm (bv-116)",
+      "beads_added": [
+        "bv-116"
+      ]
+    },
+    {
+      "sha": "bdfb32f68254ff42f51cbd28a12c494bb94a4725",
+      "date": "2025-12-15T23:48:52-05:00",
+      "message": "fix(beads): correct WASM epic dependencies + add robot-label-attention",
+      "beads_added": [
+        "bv-121"
+      ]
+    },
+    {
+      "sha": "cfc2aed54f5f87c6d6270e79ef16d44f40cdae36",
+      "date": "2025-12-15T23:54:25-05:00",
+      "message": "fix(beads): comprehensive WASM epic review and corrections",
+      "beads_added": [
+        "bv-pbs6",
+        "bv-127",
+        "bv-8f0b"
+      ]
+    },
+    {
+      "sha": "feda8096b6489aac2d7f4fb34822c9ae8e15a879",
+      "date": "2025-12-15T23:56:42-05:00",
+      "message": "test(analysis): add comprehensive edge case tests for label analysis (bv-127)",
+      "beads_added": [
+        "bv-127"
+      ]
+    },
+    {
+      "sha": "ff14bb565d525837e415104950539f990d7897a6",
+      "date": "2025-12-16T00:14:12-05:00",
+      "message": "feat(wasm): add Rust WASM graph engine crate (bv-d4w7, bv-bxoe)",
+      "beads_added": [
+        "bv-mvvu",
+        "bv-d4w7",
+        "bv-yi6k",
+        "bv-bxoe"
+      ]
+    },
+    {
+      "sha": "099960c809c84c4827d2f0fbee3e749aef7afd44",
+      "date": "2025-12-16T00:15:08-05:00",
+      "message": "feat(wasm): add topological sort algorithm (bv-yi6k)",
+      "beads_added": [
+        "bv-yi6k"
+      ]
+    },
+    {
+      "sha": "9df3eddde50f2adfade4eff988ed9dcdb1e73a89",
+      "date": "2025-12-16T00:17:06-05:00",
+      "message": "fix(ui): prevent list selection change when detail view has focus (bv-hmkz)",
+      "beads_added": [
+        "bv-hmkz"
+      ]
+    },
+    {
+      "sha": "0ca7938ca6a0cf1ef8b25456d9f3a9eca237dc5f",
+      "date": "2025-12-16T00:17:39-05:00",
+      "message": "chore: fix updater URL typo and add footer label hint",
+      "beads_added": [
+        "bv-bikt"
+      ]
+    },
+    {
+      "sha": "16776dcaa0cb04231d3132db4b44c607a165aa3b",
+      "date": "2025-12-16T00:19:54-05:00",
+      "message": "fix(analysis): race condition in graph stats config and cycle sentinel pollution",
+      "beads_added": [
+        "bv-3ht4",
+        "bv-bikt"
+      ]
+    },
+    {
+      "sha": "c22994d294cd7cce2968a3a314da974bda0905e3",
+      "date": "2025-12-16T00:20:26-05:00",
+      "message": "feat(wasm): add critical path heights algorithm (bv-bikt)",
+      "beads_added": [
+        "bv-3ht4",
+        "bv-f103"
+      ]
+    },
+    {
+      "sha": "07a70bab89193878db756ed33b1fbe81ea56d73c",
+      "date": "2025-12-16T00:22:40-05:00",
+      "message": "fix(ui): improve light mode color contrast for accessibility (bv-3fcg)",
+      "beads_added": [
+        "bv-3fcg",
+        "bv-dvp3"
+      ]
+    },
+    {
+      "sha": "23b5429cc280c5a087684551ffe1cbcddcc6ac4b",
+      "date": "2025-12-16T00:24:11-05:00",
+      "message": "feat(wasm): add PageRank algorithm (bv-dvp3)",
+      "beads_added": [
+        "bv-108",
+        "bv-dvp3"
+      ]
+    },
+    {
+      "sha": "c02d84c4a406447a63b58eca00264c8516e04baf",
+      "date": "2025-12-16T00:29:09-05:00",
+      "message": "feat(wasm): add betweenness centrality algorithm (bv-utky)",
+      "beads_added": [
+        "bv-a276",
+        "bv-utky",
+        "bv-117"
+      ]
+    },
+    {
+      "sha": "dbf07a4e8ea7d7313e3b346a3da29bf7dca35b1c",
+      "date": "2025-12-16T00:29:40-05:00",
+      "message": "feat(wasm): add eigenvector centrality algorithm (bv-a276)",
+      "beads_added": [
+        "bv-yrcn",
+        "bv-a276"
+      ]
+    },
+    {
+      "sha": "dfe642fea17934a83a52fa3fb482a777958a56e4",
+      "date": "2025-12-16T00:31:16-05:00",
+      "message": "feat(wasm): add HITS (Hubs \u0026 Authorities) algorithm (bv-yrcn)",
+      "beads_added": [
+        "bv-yrcn",
+        "bv-81ew"
+      ]
+    },
+    {
+      "sha": "db0c7fb1b5f1b0aca845f7e8b31fdb1363b6486f",
+      "date": "2025-12-16T00:32:33-05:00",
+      "message": "feat(wasm): add k-core decomposition algorithm (bv-81ew)",
+      "beads_added": [
+        "bv-81ew"
+      ]
+    },
+    {
+      "sha": "d918c17ffbf1934b5c251b4552836a2de2202b15",
+      "date": "2025-12-16T00:34:27-05:00",
+      "message": "feat(wasm): add articulation points and bridges algorithm (bv-ktru)",
+      "beads_added": [
+        "bv-ktru",
+        "bv-xg92"
+      ]
+    },
+    {
+      "sha": "bf97c27cab5e0de352b57deee4c291e53374c197",
+      "date": "2025-12-16T00:34:52-05:00",
+      "message": "feat(ui): add sparklines to list view in wide mode",
+      "beads_added": [
+        "bv-2nyt"
+      ]
+    },
+    {
+      "sha": "96a2fc44fc94e59cb27a96703cdd4c2adf455d95",
+      "date": "2025-12-16T00:36:39-05:00",
+      "message": "feat(wasm): add slack computation algorithm (bv-2nyt)",
+      "beads_added": [
+        "bv-2nyt"
+      ]
+    },
+    {
+      "sha": "8b3c135558c6ce0d68daab2bb3e3cb78a18636c4",
+      "date": "2025-12-16T00:38:25-05:00",
+      "message": "feat(wasm): add cycle detection algorithms (bv-xg92)",
+      "beads_added": [
+        "bv-xg92"
+      ]
+    },
+    {
+      "sha": "051385be7815080605268fc20b09d38244133cf0",
+      "date": "2025-12-16T00:41:24-05:00",
+      "message": "feat(wasm): add subgraph extraction and reachability (bv-ywd5)",
+      "beads_added": [
+        "bv-ywd5",
+        "bv-kdug"
+      ]
+    },
+    {
+      "sha": "ca21212c241d39a002d37c58073397013900dba3",
+      "date": "2025-12-16T00:42:15-05:00",
+      "message": "feat(wasm): add actionable node queries and reachability (bv-kdug)",
+      "beads_added": [
+        "bv-kdug"
+      ]
+    },
+    {
+      "sha": "c7f564db9b938e1a05c80da378caa5470f65932b",
+      "date": "2025-12-16T00:46:13-05:00",
+      "message": "feat(wasm): add what-if simulation for cascade impact analysis (bv-njah)",
+      "beads_added": [
+        "bv-151",
+        "bv-njah"
+      ]
+    },
+    {
+      "sha": "35dad43621ebb02e959445529bf4cd76f4fc403e",
+      "date": "2025-12-16T00:48:17-05:00",
+      "message": "feat(wasm): add cycle break suggestions (bv-jl6j)",
+      "beads_added": [
+        "bv-jl6j",
+        "bv-111"
+      ]
+    },
+    {
+      "sha": "c275439030d284d8ccd46049afbc0bb5e807346f",
+      "date": "2025-12-16T01:04:32-05:00",
+      "message": "feat(tui): add triage insights to TUI (bv-151)",
+      "beads_added": [
+        "bv-118",
+        "bv-151",
+        "bv-a00v"
+      ]
+    },
+    {
+      "sha": "f6d3e22c956a148a8f369ae8bd45bd347b22a7c5",
+      "date": "2025-12-16T01:30:46-05:00",
+      "message": "feat(wasm): add coverage set vertex cover algorithm (bv-1hnb)",
+      "beads_added": [
+        "bv-jndd",
+        "bv-1hnb"
+      ]
+    },
+    {
+      "sha": "70fcbdf9f40d7ea548a5225738b802b7fe2f5c17",
+      "date": "2025-12-16T01:32:47-05:00",
+      "message": "feat(viewer): add force-graph visualization component (bv-jndd)",
+      "beads_added": [
+        "bv-3m20",
+        "bv-jndd"
+      ]
+    },
+    {
+      "sha": "b6c521d58cd2ccacf74d13daf6f9807f3d78f16d",
+      "date": "2025-12-16T01:33:44-05:00",
+      "message": "feat(wasm): add K-shortest paths and parallel cut algorithms (bv-3m20)",
+      "beads_added": [
+        "bv-3m20"
+      ]
+    },
+    {
+      "sha": "2ea8977b17ad94302524c5810392e2dafceff4df",
+      "date": "2025-12-16T01:47:02-05:00",
+      "message": "feat(export): add SQLite schema and data structures for static export (bv-6hl)",
+      "beads_added": [
+        "bv-6hl",
+        "bv-165",
+        "bv-153"
+      ]
+    },
+    {
+      "sha": "090c418bb14d0ac966468ad4f4403b6c59b1d12c",
+      "date": "2025-12-16T01:49:01-05:00",
+      "message": "feat(drift): add downstream priority sum to blocking cascade alerts (bv-165)",
+      "beads_added": [
+        "bv-w97"
+      ]
+    },
+    {
+      "sha": "436cf756a2a4fbea27e577442420953177ae8ffe",
+      "date": "2025-12-16T01:54:43-05:00",
+      "message": "feat(ui): add label drilldown view with cross-label deps (bv-107, bv-108)",
+      "beads_added": [
+        "bv-107"
+      ]
+    },
+    {
+      "sha": "163ff01ab47fb4504a68b348c6a5f46784c710d5",
+      "date": "2025-12-16T01:59:13-05:00",
+      "message": "feat(analysis): implement parallel cut suggestions algorithm (bv-154)",
+      "beads_added": [
+        "bv-107",
+        "bv-168",
+        "bv-154"
+      ]
+    },
+    {
+      "sha": "a116d27633684002d97576a9a768985c3c8da890",
+      "date": "2025-12-16T02:11:30-05:00",
+      "message": "feat(wasm): add TopK Set greedy submodular selection (bv-a00v)",
+      "beads_added": [
+        "bv-a00v",
+        "bv-jdl",
+        "bv-168"
+      ]
+    },
+    {
+      "sha": "214e80d80defb5c76d696b204ef5165632eb59a5",
+      "date": "2025-12-16T02:18:54-05:00",
+      "message": "feat(drift): add alert configuration with disabled alerts and per-label overrides (bv-167)",
+      "beads_added": [
+        "bv-91",
+        "bv-167"
+      ]
+    },
+    {
+      "sha": "3a4e892570e830f0b47fda089bc5601de34d20d3",
+      "date": "2025-12-16T02:27:29-05:00",
+      "message": "feat: integrate WASM graph engine + attention view (bv-y7a0, bv-117)",
+      "beads_added": [
+        "bv-y7a0",
+        "bv-117"
+      ]
+    },
+    {
+      "sha": "5586caeffc7e224fefa3631494e7672d349e389a",
+      "date": "2025-12-16T03:06:22-05:00",
+      "message": "fix(analysis): ensure deterministic output for cycles and betweenness metrics",
+      "beads_added": [
+        "bv-118",
+        "bv-106",
+        "bv-104",
+        "bv-73f",
+        "bv-105",
+        "bv-123",
+        "bv-107",
+        "bv-psjp",
+        "bv-111",
+        "bv-122"
+      ]
+    },
+    {
+      "sha": "ed551ea598e54e59844863d144d757e26c3e57b2",
+      "date": "2025-12-16T03:12:54-05:00",
+      "message": "test(wasm): add cross-validation test suite for Go/WASM algorithms (bv-psjp)",
+      "beads_added": [
+        "bv-psjp"
+      ]
+    },
+    {
+      "sha": "7fdf0d50c200e4596ce09727c41bbb32d3a75a2d",
+      "date": "2025-12-16T03:16:27-05:00",
+      "message": "feat(cli): add --export-pages static site export (bv-73f)",
+      "beads_added": [
+        "bv-uun"
+      ]
+    },
+    {
+      "sha": "a75b839081f8fd05986fd8c57556c0b338c8a734",
+      "date": "2025-12-16T03:19:46-05:00",
+      "message": "feat(viewer): enhance dashboard with actionable stats and quick wins (bv-uun)",
+      "beads_added": [
+        "bv-5yb",
+        "bv-kdn",
+        "bv-uun"
+      ]
+    },
+    {
+      "sha": "b420b90df58b3d4407cb454d2ddd1772ea070d66",
+      "date": "2025-12-16T03:24:11-05:00",
+      "message": "chore: add preview server implementation and beads sync",
+      "beads_added": [
+        "bv-406"
+      ]
+    },
+    {
+      "sha": "e2716fc954bd294257df4c94f262fd166f7f003d",
+      "date": "2025-12-16T03:26:40-05:00",
+      "message": "feat(viewer): implement hash-based SPA routing (bv-406)",
+      "beads_added": [
+        "bv-10g",
+        "bv-406"
+      ]
+    },
+    {
+      "sha": "d257830b8187d57a67265eb8224d1fa5dc1efcb8",
+      "date": "2025-12-16T10:25:05-05:00",
+      "message": "docs: add static pages feature to robot-help and AGENTS.md (bv-7pu)",
+      "beads_added": [
+        "bv-vt0",
+        "bv-7pu"
+      ]
+    },
+    {
+      "sha": "886ae17c78fbd960993f6fe25cdcfb3568f20937",
+      "date": "2025-12-16T10:30:09-05:00",
+      "message": "feat(viewer): enhance issue detail with graph metrics and dependency viz (bv-dyg)",
+      "beads_added": [
+        "bv-dyg",
+        "bv-136"
+      ]
+    },
+    {
+      "sha": "600e064379fb165161fc30febd701874d91d81ea",
+      "date": "2025-12-16T10:31:47-05:00",
+      "message": "feat(viewer): add comprehensive insights view with graph metrics (bv-vt0)",
+      "beads_added": [
+        "bv-vt0"
+      ]
+    },
+    {
+      "sha": "92c7709ca6156edbd367cc101d11b74ab6d16259",
+      "date": "2025-12-16T10:33:51-05:00",
+      "message": "feat(export): add --robot-graph command for dependency graph export (bv-136)",
+      "beads_added": [
+        "bv-ake",
+        "bv-172",
+        "bv-136",
+        "bv-5mgw",
+        "bv-169",
+        "bv-gdlt"
+      ]
+    },
+    {
+      "sha": "548a900b0a29554d028d13728dd1ac15cd418607",
+      "date": "2025-12-16T10:41:52-05:00",
+      "message": "test(export): add comprehensive integration tests for static export (bv-ake)",
+      "beads_added": [
+        "bv-43js"
+      ]
+    },
+    {
+      "sha": "2f59ebf88a68f93607355eb619755241cbec10a4",
+      "date": "2025-12-16T10:44:19-05:00",
+      "message": "fix(ui): add scrollable help overlay for small terminals (bv-43js)",
+      "beads_added": [
+        "bv-awl",
+        "bv-43js"
+      ]
+    },
+    {
+      "sha": "dc05752046c30b1ce5072fb37c5980c8d4da794a",
+      "date": "2025-12-16T10:46:35-05:00",
+      "message": "feat(viewer): implement comprehensive dark mode support (bv-awl)",
+      "beads_added": [
+        "bv-5h6q",
+        "bv-dgyb"
+      ]
+    },
+    {
+      "sha": "b557d164fb0307598ed766d1a550f3d26fc4794c",
+      "date": "2025-12-16T10:49:24-05:00",
+      "message": "feat(wasm): add size optimization docs and feature flags (bv-dgyb)",
+      "beads_added": [
+        "bv-g4gs",
+        "bv-gv7"
+      ]
+    },
+    {
+      "sha": "271e660282e2e8c8b7704664f27041569f968518",
+      "date": "2025-12-16T10:49:59-05:00",
+      "message": "fix(install): handle empty TMP_DIRS array with set -u (bv-g4gs)",
+      "beads_added": [
+        "bv-g4gs"
+      ]
+    },
+    {
+      "sha": "48439059a677135efeb437cc4023c47889d84556",
+      "date": "2025-12-16T10:50:51-05:00",
+      "message": "feat(viewer): add mobile responsive design (bv-gv7)",
+      "beads_added": [
+        "bv-p32k"
+      ]
+    },
+    {
+      "sha": "2b92b87b38d502321a9e7898b0112683347b50d3",
+      "date": "2025-12-16T10:53:51-05:00",
+      "message": "feat(viewer): add WASM fallback detection and graceful degradation (bv-p32k)",
+      "beads_added": [
+        "bv-174",
+        "bv-182"
+      ]
+    },
+    {
+      "sha": "7e4287d57d57bf9cb3f62c6615c14a05c82da96e",
+      "date": "2025-12-16T10:57:59-05:00",
+      "message": "feat(update): implement auto-update mechanism with checksum verification (bv-182)",
+      "beads_added": [
+        "bv-182"
+      ]
+    },
+    {
+      "sha": "350d332857495e0bfcbc8f64c7f10b7718dd5641",
+      "date": "2025-12-16T11:03:42-05:00",
+      "message": "feat(analysis): implement historical velocity computation (bv-123)",
+      "beads_added": [
+        "bv-123"
+      ]
+    },
+    {
+      "sha": "ffcbc412a7e6766c53a5c1db04d45f8c568b22d9",
+      "date": "2025-12-16T11:27:41-05:00",
+      "message": "feat(export): add Cloudflare Pages deployment support (bv-5dl)",
+      "beads_added": [
+        "bv-5dl",
+        "bv-124",
+        "bv-k79d"
+      ]
+    },
+    {
+      "sha": "957b7c18b9d4ce6ef469fb2e237b76a2bef60255",
+      "date": "2025-12-16T11:37:17-05:00",
+      "message": "fix(analysis): improve transitive unblock calculation for diamond dependencies",
+      "beads_added": [
+        "bv-1opc",
+        "bv-470n"
+      ]
+    },
+    {
+      "sha": "8e5ad37ab129fca0df2b7035d375d2f4f42b4a7b",
+      "date": "2025-12-16T11:41:08-05:00",
+      "message": "feat(viewer): implement visual what-if simulation with cascade animations (bv-470n)",
+      "beads_added": [
+        "bv-470n"
+      ]
+    },
+    {
+      "sha": "1bb95b8f87941b8f1adac0eb02c506373c6d561f",
+      "date": "2025-12-16T11:52:01-05:00",
+      "message": "feat(analysis): add label-specific critical path computation (bv-115)",
+      "beads_added": [
+        "bv-115",
+        "bv-99"
+      ]
+    },
+    {
+      "sha": "40dd45ea563d16d7c34955d7010066905b511ccf",
+      "date": "2025-12-16T12:19:27-05:00",
+      "message": "feat(graph): add critical path animation with traversal visualization (bv-gij1)",
+      "beads_added": [
+        "bv-gij1",
+        "bv-79",
+        "bv-78",
+        "bv-epf.4",
+        "bv-epf.3"
+      ]
+    },
+    {
+      "sha": "cbd8ae83546faa4fc00780cb591ec716a81a2c1c",
+      "date": "2025-12-16T12:40:13-05:00",
+      "message": "feat(ui): add label graph analysis sub-view (bv-109)",
+      "beads_added": [
+        "bv-155",
+        "bv-109",
+        "bv-qjc.2"
+      ]
+    },
+    {
+      "sha": "006818926cf6a1678547d7ad22ab72344afac87f",
+      "date": "2025-12-16T12:42:36-05:00",
+      "message": "feat(model): add Sprint, Forecast, and BurndownPoint types (bv-155)",
+      "beads_added": [
+        "bv-qjc.3"
+      ]
+    },
+    {
+      "sha": "6a897ba2a78b26389e9149c82192d5ab89284643",
+      "date": "2025-12-16T12:44:00-05:00",
+      "message": "feat(export): integrate hooks with --export-pages (bv-qjc.3)",
+      "beads_added": [
+        "bv-156",
+        "bv-157"
+      ]
+    },
+    {
+      "sha": "40e47169e19278cccbcb7588d0f7c2071fa286af",
+      "date": "2025-12-16T12:49:48-05:00",
+      "message": "feat(cli): add robot-sprint-list and robot-sprint-show flags (bv-156)",
+      "beads_added": [
+        "bv-112"
+      ]
+    },
+    {
+      "sha": "5c188596f1163522187367ac4e20d6165f4bc50e",
+      "date": "2025-12-16T12:58:52-05:00",
+      "message": "feat(cli): implement --robot-forecast ETA estimation (bv-158)",
+      "beads_added": [
+        "bv-158",
+        "bv-112"
+      ]
+    },
+    {
+      "sha": "ab0b34cac432c4e1c8c51ddb0da2c848fe415237",
+      "date": "2025-12-16T12:59:05-05:00",
+      "message": "feat(analysis): add blockage impact cascade analysis (bv-112)",
+      "beads_added": [
+        "bv-158"
+      ]
+    },
+    {
+      "sha": "e2e73b42374a161f668f84f1f291a2da6494265c",
+      "date": "2025-12-16T13:03:02-05:00",
+      "message": "feat(cli): implement --robot-capacity simulation (bv-160)",
+      "beads_added": [
+        "bv-160",
+        "bv-126"
+      ]
+    },
+    {
+      "sha": "58a035b733ceab4b66b7cca22d522da7f09af62b",
+      "date": "2025-12-16T13:05:57-05:00",
+      "message": "test(analysis): expand ETA estimation test coverage to 90%+ (bv-ta9l)",
+      "beads_added": [
+        "bv-ta9l",
+        "bv-jl4n",
+        "bv-nnsc"
+      ]
+    },
+    {
+      "sha": "3eb0f6fdd90ee6c2fc42fdbffc94abb703db5610",
+      "date": "2025-12-16T13:06:26-05:00",
+      "message": "chore(beads): close bv-ta9l (ETA unit tests)",
+      "beads_added": [
+        "bv-ta9l"
+      ]
+    },
+    {
+      "sha": "e40911065d4d3880e72906cd958612d0b8996930",
+      "date": "2025-12-16T13:07:05-05:00",
+      "message": "feat(ui): add keyboard shortcuts for label navigation (bv-126)",
+      "beads_added": [
+        "bv-126"
+      ]
+    },
+    {
+      "sha": "57c516ba796290a0613d3641e676729602d6a66b",
+      "date": "2025-12-16T13:09:50-05:00",
+      "message": "docs(agents): add label analysis commands documentation (bv-128)",
+      "beads_added": [
+        "bv-128"
+      ]
+    },
+    {
+      "sha": "cc1ad14ab5df76977580fba8afae6102e42a3c4f",
+      "date": "2025-12-16T14:11:57-05:00",
+      "message": "feat(cli): add --robot-burndown command for sprint analytics (bv-159)",
+      "beads_added": [
+        "bv-159",
+        "bv-k0cl",
+        "bv-qjc.1",
+        "bv-z9ee",
+        "bv-9gf.2",
+        "bv-oxcm",
+        "bv-161",
+        "bv-9gf.1",
+        "bv-125",
+        "bv-lkz5",
+        "bv-40bw"
+      ]
+    },
+    {
+      "sha": "37193d56b2e834d8c716dd55f78d6692a671f7d4",
+      "date": "2025-12-16T14:26:22-05:00",
+      "message": "fix(ui): correct velocity comparison test to use AdaptiveColor (bv-125)",
+      "beads_added": [
+        "bv-125"
+      ]
+    },
+    {
+      "sha": "273f1aa2ae85528b2a33c042fec823933e0be0e2",
+      "date": "2025-12-16T14:34:14-05:00",
+      "message": "feat(cli): add --emit-script flag for top-N recommendation shell scripts (bv-89)",
+      "beads_added": [
+        "bv-zaxb",
+        "bv-y4km",
+        "bv-89"
+      ]
+    },
+    {
+      "sha": "4f40960a934874ab796f586c56a90c24624fb22a",
+      "date": "2025-12-16T15:03:13-05:00",
+      "message": "feat(viewer): add visual cycle navigator with zoom and highlighting (bv-uvxe)",
+      "beads_added": [
+        "bv-87",
+        "bv-9gf.3",
+        "bv-uvxe"
+      ]
+    },
+    {
+      "sha": "3d45a3fb169741f551258739ec4544ea4bedc4e3",
+      "date": "2025-12-16T16:08:10-05:00",
+      "message": "feat(viewer): add label-based clustering and galaxy view (bv-qpt0)",
+      "beads_added": [
+        "bv-b23i",
+        "bv-qjc",
+        "bv-epf",
+        "bv-9gf.3",
+        "bv-3qi5",
+        "bv-qpt0",
+        "bv-9gf"
+      ]
+    },
+    {
+      "sha": "7fea7c611e8fe3b6b5ac44b5dcd9eced8407a7c6",
+      "date": "2025-12-16T16:17:34-05:00",
+      "message": "feat(viewer): add interactive charts dashboard (bv-wb6h)",
+      "beads_added": [
+        "bv-wb6h",
+        "bv-3qi5",
+        "bv-95"
+      ]
+    },
+    {
+      "sha": "4bd638abb75930a75f4041cf873bdf306ca62b93",
+      "date": "2025-12-16T16:26:53-05:00",
+      "message": "feat(ui): add priority radar with PR/BW/Impact bars (bv-93)",
+      "beads_added": [
+        "bv-93"
+      ]
+    },
+    {
+      "sha": "f1d3d52953d550e62caaef17fafe939d6379ea53",
+      "date": "2025-12-16T16:33:33-05:00",
+      "message": "feat(viewer): add layout presets and priority radar enhancements",
+      "beads_added": [
+        "bv-92",
+        "bv-97"
+      ]
+    },
+    {
+      "sha": "3d59ab5c696c5b83864acdc0b7d8542fdf5f0d33",
+      "date": "2025-12-16T16:36:16-05:00",
+      "message": "feat(ui): add priority heatmap visualization (bv-95)",
+      "beads_added": [
+        "bv-96",
+        "bv-95"
+      ]
+    },
+    {
+      "sha": "28a1e42e28b0b78353a29e3af802ea90bea3a2e0",
+      "date": "2025-12-16T16:40:54-05:00",
+      "message": "feat(export): add --priority-brief Markdown export (bv-96)",
+      "beads_added": [
+        "bv-90",
+        "bv-96"
+      ]
+    },
+    {
+      "sha": "ddd5d5272be6e47a600e66167312a78f343cb5a5",
+      "date": "2025-12-16T16:45:23-05:00",
+      "message": "feat(export): add --agent-brief bundle export (bv-131)",
+      "beads_added": [
+        "bv-92",
+        "bv-131"
+      ]
+    },
+    {
+      "sha": "57e40c88535421a6c0891781f18a8ed039011b2c",
+      "date": "2025-12-16T16:47:09-05:00",
+      "message": "feat(analysis): add suggestion types and confidence model (bv-175)",
+      "beads_added": [
+        "bv-175"
+      ]
+    },
+    {
+      "sha": "2d637a2b485e7d405d19ca9bb43cff9210d96c28",
+      "date": "2025-12-16T16:48:59-05:00",
+      "message": "feat(analysis): add keyword-based duplicate detection (bv-177)",
+      "beads_added": [
+        "bv-137",
+        "bv-177"
+      ]
+    },
+    {
+      "sha": "ff16634afe9cf8f532b327cdcca614a84f79a1de",
+      "date": "2025-12-16T16:50:46-05:00",
+      "message": "feat(analysis): add cycle prevention warnings (bv-179)",
+      "beads_added": [
+        "bv-179"
+      ]
+    },
+    {
+      "sha": "850f7d447ac2307fd20a2c32dcf6ec516f8d5db6",
+      "date": "2025-12-16T16:52:36-05:00",
+      "message": "feat(analysis): add lightweight feedback loop for recommendations (bv-90)",
+      "beads_added": [
+        "bv-176"
+      ]
+    },
+    {
+      "sha": "5c789c6fa6d0556bda6daeae6f6890d39305bd7f",
+      "date": "2025-12-16T16:53:11-05:00",
+      "message": "feat(analysis): add keyword-based dependency suggestions (bv-176)",
+      "beads_added": [
+        "bv-176"
+      ]
+    },
+    {
+      "sha": "7fe07fd5767bb9a981e31b10324c378e6e1c3c2b",
+      "date": "2025-12-16T16:54:17-05:00",
+      "message": "feat(analysis): add label auto-suggestion (bv-178)",
+      "beads_added": [
+        "bv-178",
+        "bv-z38b"
+      ]
+    },
+    {
+      "sha": "a8351a69e09b3f8049c1335c6cc32fbeb0c26671",
+      "date": "2025-12-16T16:56:05-05:00",
+      "message": "feat(cli): add --robot-suggest command (bv-180)",
+      "beads_added": [
+        "bv-137",
+        "bv-180"
+      ]
+    },
+    {
+      "sha": "ff909e89cfd63eaa254f69be2c7c938842f79fe7",
+      "date": "2025-12-16T17:09:42-05:00",
+      "message": "feat(viewer): add history transformer and demo data for time-travel (bv-z38b)",
+      "beads_added": [
+        "bv-b23i"
+      ]
+    },
+    {
+      "sha": "a5a9b6dcc75734f1bca79680729d7cb44fd94926",
+      "date": "2025-12-16T21:52:37-05:00",
+      "message": "test(ui/graph): add 20+ comprehensive unit tests for graph view",
+      "beads_added": [
+        "bv-m2cg",
+        "bv-xcf1",
+        "bv-7bob"
+      ]
+    },
+    {
+      "sha": "6031900071ef2661e5f501d3f636af296433c897",
+      "date": "2025-12-16T22:01:16-05:00",
+      "message": "fix(test): add missing ComputeFilterValue call in coverage test",
+      "beads_added": [
+        "bv-ixzo",
+        "bv-p0bm",
+        "bv-otc5",
+        "bv-21qx",
+        "bv-xcf1"
+      ]
+    },
+    {
+      "sha": "f51dba5424a08a7212c41d0d22abcb5f19a5f8bd",
+      "date": "2025-12-16T22:09:06-05:00",
+      "message": "test: add comprehensive unit tests for analysis, correlation and export packages",
+      "beads_added": [
+        "bv-p0bm",
+        "bv-z5oa"
+      ]
+    },
+    {
+      "sha": "9049a0266b046a8ff9c89f7d1b1e4c479e2f9bd3",
+      "date": "2025-12-16T22:16:56-05:00",
+      "message": "test(export): add comprehensive SVG rendering unit tests (bv-6jyn)",
+      "beads_added": [
+        "bv-cwzm",
+        "bv-6jyn"
+      ]
+    },
+    {
+      "sha": "8a1d6525368896b3f05462353acc4bc9ad29c6a1",
+      "date": "2025-12-16T22:18:57-05:00",
+      "message": "feat(e2e): enhance harness.sh with comprehensive logging infrastructure",
+      "beads_added": [
+        "bv-cwzm"
+      ]
+    },
+    {
+      "sha": "1ad3ee2744ff5aff51d86c69187b15a512b5cc30",
+      "date": "2025-12-16T22:22:18-05:00",
+      "message": "perf(analysis): ensure deterministic output in duplicate detection and risk scoring",
+      "beads_added": [
+        "bv-0zk6",
+        "bv-75ds"
+      ]
+    },
+    {
+      "sha": "0a7d4f4df775be0ce8919d922df0d6f75c2af40d",
+      "date": "2025-12-16T22:26:36-05:00",
+      "message": "chore(beads): sync beads state and refine duplicates test data",
+      "beads_added": [
+        "bv-0zk6"
+      ]
+    },
+    {
+      "sha": "669a59efcc617133d14f695387c414c06d71ca03",
+      "date": "2025-12-16T22:28:00-05:00",
+      "message": "chore(beads): sync beads state after closing bv-75ds",
+      "beads_added": [
+        "bv-75ds"
+      ]
+    },
+    {
+      "sha": "00b9e7b6b6812ae7167aa2afeb7139e8ed3297cd",
+      "date": "2025-12-16T22:43:10-05:00",
+      "message": "test(e2e): add comprehensive static bundle validation tests",
+      "beads_added": [
+        "bv-ct7m",
+        "bv-tm6c"
+      ]
+    },
+    {
+      "sha": "a8b9ebee63ec6d9719922822c4003e5cdde6fbef",
+      "date": "2025-12-16T22:47:07-05:00",
+      "message": "test(e2e): add wizard flow walkthrough tests",
+      "beads_added": [
+        "bv-focq"
+      ]
+    },
+    {
+      "sha": "064134cb45707adae6768eff8e656cf0722eec99",
+      "date": "2025-12-16T22:59:07-05:00",
+      "message": "test(analysis): add unit tests for label_suggest.go and suggest_all.go",
+      "beads_added": [
+        "bv-0kll",
+        "bv-3bhq",
+        "bv-yc2v",
+        "bv-tm6c"
+      ]
+    },
+    {
+      "sha": "1ed811acde241c160fc02d3de1202d1783bdffa1",
+      "date": "2025-12-16T23:14:31-05:00",
+      "message": "test(ui): add comprehensive unit tests for item.go",
+      "beads_added": [
+        "bv-i10k",
+        "bv-wpmc"
+      ]
+    },
+    {
+      "sha": "0fa6d96b46e814a947051284870e1c9ab692d583",
+      "date": "2025-12-16T23:17:11-05:00",
+      "message": "test(ui): add comprehensive unit tests for flow_matrix.go",
+      "beads_added": [
+        "bv-qcgs"
+      ]
+    },
+    {
+      "sha": "390bb399a960f153a58ce5b431c33545b1917400",
+      "date": "2025-12-16T23:20:22-05:00",
+      "message": "test(ui): expand label_dashboard_test.go with comprehensive coverage",
+      "beads_added": [
+        "bv-fou9",
+        "bv-f1zg"
+      ]
+    },
+    {
+      "sha": "ed3172806a46ed6880cf3c08da470605d7f9692c",
+      "date": "2025-12-16T23:23:51-05:00",
+      "message": "test(ui): add comprehensive unit tests for semantic_search.go",
+      "beads_added": [
+        "bv-ehsl"
+      ]
+    },
+    {
+      "sha": "9e4bc4b2d7366b19871035f44bc533c58eccba83",
+      "date": "2025-12-16T23:28:45-05:00",
+      "message": "test(ui): add comprehensive sprint_view.go unit tests",
+      "beads_added": [
+        "bv-bw7z"
+      ]
+    },
+    {
+      "sha": "1e6b4287b45b0f8475eea49b41cf6a4b4a1c60cb",
+      "date": "2025-12-16T23:31:19-05:00",
+      "message": "test(ui): add comprehensive workspace_repos.go unit tests",
+      "beads_added": [
+        "bv-3bez",
+        "bv-wpmc"
+      ]
+    },
+    {
+      "sha": "7ac72f35f28af7035ff2d59c10845afef5b4a43d",
+      "date": "2025-12-16T23:36:39-05:00",
+      "message": "test(search): add comprehensive unit tests for pkg/search",
+      "beads_added": [
+        "bv-ubra",
+        "bv-ewhp",
+        "bv-kjna",
+        "bv-i5st"
+      ]
+    },
+    {
+      "sha": "ade0a30b750608d49897b074892928bdf3cb97a5",
+      "date": "2025-12-16T23:40:51-05:00",
+      "message": "test(e2e): add graph navigation E2E tests",
+      "beads_added": [
+        "bv-wzvo"
+      ]
+    },
+    {
+      "sha": "4d2c4c2ffd29bba9d8d75af4648a5d8c1082c4d1",
+      "date": "2025-12-16T23:50:42-05:00",
+      "message": "fix(analysis,drift): improve cycle detection determinism and key stability",
+      "beads_added": [
+        "bv-3krz"
+      ]
+    },
+    {
+      "sha": "df053a609fbac33735d79efa3e8c1c7e8ea10bfe",
+      "date": "2025-12-17T00:15:52-05:00",
+      "message": "test(e2e): add multi-step workflow E2E tests (bv-qfr5)",
+      "beads_added": [
+        "bv-qfr5",
+        "bv-yc2v"
+      ]
+    },
+    {
+      "sha": "bf4724bf20666c7a3d4aae03a532923f5c782e67",
+      "date": "2025-12-17T00:26:15-05:00",
+      "message": "fix(e2e): correct JSON tag in TestRobotTriageBlockersToClear",
+      "beads_added": [
+        "bv-fqpv"
+      ]
+    },
+    {
+      "sha": "070eaeed95c05b70447f222fb8e07540ab54cb91",
+      "date": "2025-12-17T00:34:14-05:00",
+      "message": "test(e2e): add race condition and concurrent access tests for bv-kozq",
+      "beads_added": [
+        "bv-fqpv",
+        "bv-kozq"
+      ]
+    },
+    {
+      "sha": "79c99c70569b299df22fdba2ea5506197b90cdc6",
+      "date": "2025-12-17T00:37:21-05:00",
+      "message": "test(analysis): update tests for AnalyzeAsync context parameter",
+      "beads_added": [
+        "bv-ut9x"
+      ]
+    },
+    {
+      "sha": "e636ef1c18261bab8548d1b02a148efe71cf12c9",
+      "date": "2025-12-17T00:39:42-05:00",
+      "message": "refactor(analysis): add context parameter to CachedAnalyzer.AnalyzeAsync",
+      "beads_added": [
+        "bv-syeo"
+      ]
+    },
+    {
+      "sha": "b3e4d1ba5853e0727db2d6b1038cd439e92e82bd",
+      "date": "2025-12-17T00:50:11-05:00",
+      "message": "feat(test): add E2E test for GitHub Pages deployment (bv-ufsr)",
+      "beads_added": [
+        "bv-ufsr",
+        "bv-2ino"
+      ]
+    },
+    {
+      "sha": "3538aba0542ed3737fec85bdf6beeffc88787c52",
+      "date": "2025-12-17T00:55:51-05:00",
+      "message": "test(e2e): add incremental export E2E tests (bv-2ino)",
+      "beads_added": [
+        "bv-61hu",
+        "bv-evyl",
+        "bv-ufsr"
+      ]
+    },
+    {
+      "sha": "375e2a9d4e4fc0a933c63b1437d9708c5abd483b",
+      "date": "2025-12-17T01:00:52-05:00",
+      "message": "test(e2e): add graph topology E2E tests (bv-gmka)",
+      "beads_added": [
+        "bv-gmka"
+      ]
+    },
+    {
+      "sha": "43fce81fe0aeb1b5a26dcce1b9a1295541209393",
+      "date": "2025-12-17T01:04:58-05:00",
+      "message": "test(e2e): add offline functionality E2E tests (bv-pua7)",
+      "beads_added": [
+        "bv-pua7"
+      ]
+    },
+    {
+      "sha": "f7ebc9f296fb28fa4786d560906a457b4accea17",
+      "date": "2025-12-17T01:09:36-05:00",
+      "message": "test(e2e): add Cloudflare Pages deployment E2E tests (bv-mwlh)",
+      "beads_added": [
+        "bv-mwlh"
+      ]
+    },
+    {
+      "sha": "724f23627429d0aef393243341070257edc1b6ae",
+      "date": "2025-12-17T01:16:36-05:00",
+      "message": "feat(ci): add Codecov integration and coverage tooling",
+      "beads_added": [
+        "bv-hdu4",
+        "bv-gv9v"
+      ]
+    },
+    {
+      "sha": "b805c52b61a338bba257008525a21686cdfd593f",
+      "date": "2025-12-17T01:21:40-05:00",
+      "message": "docs: add testing guide for contributors (bv-6tqt)",
+      "beads_added": [
+        "bv-6tqt"
+      ]
+    },
+    {
+      "sha": "932ad9d03d6f231ca4995eb47d634b9cc89e3153",
+      "date": "2025-12-17T04:00:38-05:00",
+      "message": "feat(burndown): include sprint scope change events",
+      "beads_added": [
+        "bv-159"
+      ]
+    },
+    {
+      "sha": "a37aaff1c532d41389d62e81408714840e89c83c",
+      "date": "2025-12-17T11:59:55-05:00",
+      "message": "test(analysis): add invariance test suite for perf refactor safety (bv-runn.2)",
+      "beads_added": [
+        "bv-runn.2"
+      ]
+    },
+    {
+      "sha": "766ca616d034318652fc58b0ea0ed6abd0baa09d",
+      "date": "2025-12-17T12:01:34-05:00",
+      "message": "feat(export): add interactive HTML graph visualization with force-graph",
+      "beads_added": [
+        "bv-runn.7"
+      ]
+    },
+    {
+      "sha": "d4e889a53534888bb4da47bedc868a2880184e75",
+      "date": "2025-12-17T12:02:03-05:00",
+      "message": "feat(analysis): export ComputeProjectVelocity helper (bv-runn.7)",
+      "beads_added": [
+        "bv-runn.7"
+      ]
+    },
+    {
+      "sha": "2fa026a67e8c68ddf328e20c5a5664647653f1fd",
+      "date": "2025-12-17T12:03:51-05:00",
+      "message": "perf(cmd): use velocity helper in --robot-insights (bv-runn.8)",
+      "beads_added": [
+        "bv-runn.8"
+      ]
+    },
+    {
+      "sha": "c3655d642b93cccb47a1dd57bd0d2e043bce3f69",
+      "date": "2025-12-17T12:13:11-05:00",
+      "message": "feat(analysis): add triage entrypoint reusing analyzer/stats (bv-runn.11)",
+      "beads_added": [
+        "bv-runn.11"
+      ]
+    },
+    {
+      "sha": "6741306cf40727e35421fb4bb7b966a8e161fb4a",
+      "date": "2025-12-17T12:18:16-05:00",
+      "message": "perf(ui): wire TUI startup to reuse analyzer/stats for triage (bv-runn.12)",
+      "beads_added": [
+        "bv-runn.12"
+      ]
+    },
+    {
+      "sha": "81f81b9df95585928b011ce3c10c3dce44249669",
+      "date": "2025-12-17T12:28:45-05:00",
+      "message": "fix(export): resolve critical bugs in interactive graph export",
+      "beads_added": [
+        "bv-runn.4",
+        "bv-runn.9"
+      ]
+    },
+    {
+      "sha": "3836a2505bc1cf42d8cb4280a796dd221235b20f",
+      "date": "2025-12-17T12:42:58-05:00",
+      "message": "perf(analysis): remove unused code in triage and priority (bv-runn.4, bv-runn.5)",
+      "beads_added": [
+        "bv-runn.5",
+        "bv-runn.1",
+        "bv-runn.13",
+        "bv-runn.4",
+        "bv-runn.6",
+        "bv-runn",
+        "bv-runn.10"
+      ]
+    },
+    {
+      "sha": "259acfc1d7e31a103ba92d59fa88e7e9dfae60bb",
+      "date": "2025-12-17T13:03:36-05:00",
+      "message": "fix(ui): remove erroneous heading prefixes from glamour style",
+      "beads_added": [
+        "bv-runn.3",
+        "bv-runn.14"
+      ]
+    },
+    {
+      "sha": "c9efc40e17ef98f39abd3366a3483beb06675742",
+      "date": "2025-12-17T15:25:22-05:00",
+      "message": "feat(agents): add AGENTS.md blurb content definition",
+      "beads_added": [
+        "bv-5rs7"
+      ]
+    },
+    {
+      "sha": "35e52988f02156ef6665e2cf57c7f7403d3b8a73",
+      "date": "2025-12-17T15:28:11-05:00",
+      "message": "feat(agents): add AGENTS.md file detection logic",
+      "beads_added": [
+        "bv-1662",
+        "bv-tvp8",
+        "bv-z5i1"
+      ]
+    },
+    {
+      "sha": "e12358407497b842e91ab6b01dcb850acc1ad9a2",
+      "date": "2025-12-17T15:29:58-05:00",
+      "message": "feat(agents): add project preference storage for AGENTS.md prompts",
+      "beads_added": [
+        "bv-uomb"
+      ]
+    },
+    {
+      "sha": "738eebfcbf139b67cfd4f21c87f6516919b4aa14",
+      "date": "2025-12-17T15:31:30-05:00",
+      "message": "feat(agents): add atomic file operations for AGENTS.md management",
+      "beads_added": [
+        "bv-mp4x"
+      ]
+    },
+    {
+      "sha": "61e1068156d54f1f273e8c4c2a91b54b94314368",
+      "date": "2025-12-17T15:33:27-05:00",
+      "message": "feat(ui): add AGENTS.md prompt modal component",
+      "beads_added": [
+        "bv-ru7c"
+      ]
+    },
+    {
+      "sha": "4de28ca6c23e8e26bffef1920d673619ae6a7707",
+      "date": "2025-12-17T15:36:18-05:00",
+      "message": "feat(ui): wire up AGENTS.md integration trigger",
+      "beads_added": [
+        "bv-o1b7"
+      ]
+    },
+    {
+      "sha": "eb633e0f565d06da4004583fc742c9960800ad8c",
+      "date": "2025-12-17T15:37:50-05:00",
+      "message": "test(agents): add integration tests for AGENTS.md feature flow",
+      "beads_added": [
+        "bv-zo30"
+      ]
+    },
+    {
+      "sha": "9922ba8e7d0da18fd70b6f4ee21854e04cdbbd4e",
+      "date": "2025-12-17T16:10:28-05:00",
+      "message": "fix(board): remove width cap, use full screen (bv-ic17)",
+      "beads_added": [
+        "bv-d6vi",
+        "bv-ic17"
+      ]
+    },
+    {
+      "sha": "0fe11cd21233ad4219658476ac0f9ba26bbd2771",
+      "date": "2025-12-17T16:12:24-05:00",
+      "message": "feat(export): vendor all CDN dependencies for offline use",
+      "beads_added": [
+        "bv-r6kh"
+      ]
+    },
+    {
+      "sha": "187c022ef1a527aad4dd6dc90f2c61d8850c6045",
+      "date": "2025-12-17T16:13:08-05:00",
+      "message": "feat(ui): add Tutorial Model Infrastructure (bv-d6vi)",
+      "beads_added": [
+        "bv-d6vi"
+      ]
+    },
+    {
+      "sha": "22e55ae272f4d167f96c1ffcc4089a26d2e21a63",
+      "date": "2025-12-17T16:15:02-05:00",
+      "message": "feat(board): add detail panel with Tab toggle (bv-r6kh)",
+      "beads_added": [
+        "bv-r6kh"
+      ]
+    },
+    {
+      "sha": "e218e97952bba3e62e7fcc2270ba4c7cb987f89c",
+      "date": "2025-12-17T16:19:14-05:00",
+      "message": "feat(tutorial): add beautiful UI layout \u0026 chrome (bv-h6rq)",
+      "beads_added": [
+        "bv-uznu"
+      ]
+    },
+    {
+      "sha": "04dde176e05c1a57418c86c00f36624c8b4df5ee",
+      "date": "2025-12-17T16:19:27-05:00",
+      "message": "feat(history): add Git-centric view mode (bv-tl3n)",
+      "beads_added": [
+        "bv-tl3n",
+        "bv-h6rq"
+      ]
+    },
+    {
+      "sha": "beca14b55a1dac1a1bf4d12b914bd21f73fddf1a",
+      "date": "2025-12-17T16:20:47-05:00",
+      "message": "feat(cass): add detection and health checking package (bv-uznu)",
+      "beads_added": [
+        "bv-uznu",
+        "bv-lb0h"
+      ]
+    },
+    {
+      "sha": "9ae8e2a4fdb908b721f9e25a1869a19e09897798",
+      "date": "2025-12-17T16:23:29-05:00",
+      "message": "debug(viewer): add logging to getStats for closed count issue",
+      "beads_added": [
+        "bv-lb0h"
+      ]
+    },
+    {
+      "sha": "8f6c6613cc6f25c917eb439a1e4bd9f418f35ddc",
+      "date": "2025-12-17T16:25:21-05:00",
+      "message": "fix(board): properly render detail panel \"No Selection\" state",
+      "beads_added": [
+        "bv-wdsd"
+      ]
+    },
+    {
+      "sha": "021e04429b1b4e901e50024f89407235292b5d72",
+      "date": "2025-12-17T16:32:34-05:00",
+      "message": "feat(ui): add context detection system (bv-ocw0)",
+      "beads_added": [
+        "bv-8phk",
+        "bv-ocw0"
+      ]
+    },
+    {
+      "sha": "6d2f89de8c3c6ea6b25a6b113108f3b8fa5a4c90",
+      "date": "2025-12-17T16:35:28-05:00",
+      "message": "feat(history): add search \u0026 filter infrastructure (bv-nkrj)",
+      "beads_added": [
+        "bv-6xa1"
+      ]
+    },
+    {
+      "sha": "24b459473982db03ff57a59f0622f481aae7266c",
+      "date": "2025-12-17T16:36:06-05:00",
+      "message": "feat(cass): add search interface with safety wrappers (bv-8phk)",
+      "beads_added": [
+        "bv-nkrj",
+        "bv-8phk"
+      ]
+    },
+    {
+      "sha": "689455bf2c6cf995fc7d2c2aa4c8b35a38f93df4",
+      "date": "2025-12-17T16:37:06-05:00",
+      "message": "feat(ui): add CapsLock/tutorial trigger key detection (bv-6xa1)",
+      "beads_added": [
+        "bv-bjv0"
+      ]
+    },
+    {
+      "sha": "7f0ad955cbf28aa1507927e73f254e9f7b7c2637",
+      "date": "2025-12-17T16:39:21-05:00",
+      "message": "feat(ui): add context field to ShowTutorialMsg (bv-sd8b)",
+      "beads_added": [
+        "bv-sd8b"
+      ]
+    },
+    {
+      "sha": "5fddadee2cd8c32ef1b13300e981e759a9b52a98",
+      "date": "2025-12-17T16:40:27-05:00",
+      "message": "feat(cass): add result caching system with LRU eviction (bv-bjv0)",
+      "beads_added": [
+        "bv-0trk",
+        "bv-bjv0"
+      ]
+    },
+    {
+      "sha": "37fe3c9fcdfbec12d823ccafeaf99971106a303f",
+      "date": "2025-12-17T16:45:12-05:00",
+      "message": "fix(cass): improve cache documentation and remove unused code",
+      "beads_added": [
+        "bv-1lel"
+      ]
+    },
+    {
+      "sha": "eda80f0ef0bcf9437e19826b47533b6138d5e612",
+      "date": "2025-12-17T16:48:28-05:00",
+      "message": "feat(export): switch to pure-Go SQLite with built-in FTS5 support",
+      "beads_added": [
+        "bv-kdv2"
+      ]
+    },
+    {
+      "sha": "27d297a69055892ad0821b5f192918ce816b4cd8",
+      "date": "2025-12-17T16:52:25-05:00",
+      "message": "chore: update comments to reflect modernc.org/sqlite FTS5 support",
+      "beads_added": [
+        "bv-xrfh"
+      ]
+    },
+    {
+      "sha": "d8a055d969c7d0d3b3273191ed97de9c33b1ce2e",
+      "date": "2025-12-17T16:57:30-05:00",
+      "message": "feat(tutorial): add Introduction \u0026 Philosophy content (bv-kdv2)",
+      "beads_added": [
+        "bv-m26b"
+      ]
+    },
+    {
+      "sha": "f68d3075f429a2c60a9a7c44df6b604569b87010",
+      "date": "2025-12-17T17:00:53-05:00",
+      "message": "feat(agents): add legacy blurb detection and migration support",
+      "beads_added": [
+        "bv-36wz"
+      ]
+    },
+    {
+      "sha": "37fd2c8928d6f24fe9beb9f4fabfad10b58b11ad",
+      "date": "2025-12-17T17:06:16-05:00",
+      "message": "fix(agents): improve GetBlurbVersion and tighten legacy detection",
+      "beads_added": [
+        "bv-4swd"
+      ]
+    },
+    {
+      "sha": "d18f2a17a2828b57290218d3422cc358a5f146e4",
+      "date": "2025-12-17T17:13:13-05:00",
+      "message": "fix(history): add middle pane scrolling for three-pane layout (bv-xrfh)",
+      "beads_added": [
+        "bv-sbib"
+      ]
+    },
+    {
+      "sha": "2ba1e93a161b5e187a5203fa46bd1d8456096b6b",
+      "date": "2025-12-17T17:21:04-05:00",
+      "message": "feat(tutorial): connect Views content constants to pages (bv-wra5, bv-h6jw)",
+      "beads_added": [
+        "bv-wra5",
+        "bv-h6jw"
+      ]
+    },
+    {
+      "sha": "7c56a357de549586cc39579729c82e426c8ec2f8",
+      "date": "2025-12-17T17:41:36-05:00",
+      "message": "feat(history): add statistics header bar with badges (bv-y5sx)",
+      "beads_added": [
+        "bv-hmib",
+        "bv-y5sx"
+      ]
+    },
+    {
+      "sha": "2c0022a7ef8d4d9f7cd83d4558bba28783a13432",
+      "date": "2025-12-17T17:42:11-05:00",
+      "message": "test(agents): add edge case tests for legacy blurb migration (bv-efrq)",
+      "beads_added": [
+        "bv-y5sx"
+      ]
+    },
+    {
+      "sha": "d84a61ff929678e491ef4cd7d1a345f15de2b067",
+      "date": "2025-12-17T17:43:56-05:00",
+      "message": "docs(readme): document pure-Go SQLite and FTS5 search (bv-8cok)",
+      "beads_added": [
+        "bv-9fk1"
+      ]
+    },
+    {
+      "sha": "f4611aec787cc05e0940b1233413a6bdd2171401",
+      "date": "2025-12-17T17:45:02-05:00",
+      "message": "docs(readme): document AGENTS.md auto-injection feature (bv-ki6z)",
+      "beads_added": [
+        "bv-19gf"
+      ]
+    },
+    {
+      "sha": "382a90f5629b743d43e1faa489f948dd0a595edc",
+      "date": "2025-12-17T17:48:23-05:00",
+      "message": "feat(bv-hmib): add file-bead reverse index for history view",
+      "beads_added": [
+        "bv-hmib",
+        "bv-19gf"
+      ]
+    },
+    {
+      "sha": "da074b2c189071720b8c8078b871db6890c91aeb",
+      "date": "2025-12-17T17:50:29-05:00",
+      "message": "fix(ui): correct label picker key in context help (bv-ufz2)",
+      "beads_added": [
+        "bv-a2rv",
+        "bv-9fk1"
+      ]
+    },
+    {
+      "sha": "957336204a8d78ec37598bee472d8281dca1aea4",
+      "date": "2025-12-17T17:54:15-05:00",
+      "message": "feat(tutorial): add Real-World Workflows content (bv-a2rv)",
+      "beads_added": [
+        "bv-a2rv"
+      ]
+    },
+    {
+      "sha": "ebabcf968673d088ab6d5177a714c91b451d42d4",
+      "date": "2025-12-17T18:01:04-05:00",
+      "message": "feat(ui): integrate tutorial with main Model (bv-8y31)",
+      "beads_added": [
+        "bv-19pq",
+        "bv-7k8p",
+        "bv-8y31"
+      ]
+    },
+    {
+      "sha": "9ba1348fe9195df888307ef136682a636ad51e79",
+      "date": "2025-12-17T18:04:28-05:00",
+      "message": "feat(history): add lifecycle events display in detail pane (bv-7k8p)",
+      "beads_added": [
+        "bv-xymv"
+      ]
+    },
+    {
+      "sha": "bd43f72042503e758f965422fe7ba1cfb39ce03c",
+      "date": "2025-12-17T18:05:48-05:00",
+      "message": "fix(docs): remove unimplemented ~ context help documentation",
+      "beads_added": [
+        "bv-7k8p"
+      ]
+    },
+    {
+      "sha": "37bf83e317a62f0912288c18dbb7446c822c5345",
+      "date": "2025-12-17T18:13:06-05:00",
+      "message": "feat(history): add keyboard navigation improvements (bv-xf4p)",
+      "beads_added": [
+        "bv-19pq",
+        "bv-xf4p"
+      ]
+    },
+    {
+      "sha": "e69e68cb76f50126df6649edf876d9669e361afe",
+      "date": "2025-12-17T18:13:24-05:00",
+      "message": "fix: correct semantic search key and misleading test comment",
+      "beads_added": [
+        "bv-xf4p"
+      ]
+    },
+    {
+      "sha": "675356988ee7b0aae56630db262fa5f2710e38dc",
+      "date": "2025-12-17T18:33:58-05:00",
+      "message": "feat(board): implement rich card content with improved info density (bv-1daf)",
+      "beads_added": [
+        "bv-tvti",
+        "bv-yg39",
+        "bv-1daf"
+      ]
+    },
+    {
+      "sha": "272b7546a5f420f17617309a94dbdf8992de309e",
+      "date": "2025-12-17T18:35:43-05:00",
+      "message": "chore(beads): sync bv-1daf and bv-tvti closures",
+      "beads_added": [
+        "bv-tvti"
+      ]
+    },
+    {
+      "sha": "f9c754faeb6feb6e2d17114656f0e012ed258831",
+      "date": "2025-12-17T18:38:52-05:00",
+      "message": "feat(board): add visual dependency indicators with color-coded borders (bv-kklp)",
+      "beads_added": [
+        "bv-kklp"
+      ]
+    },
+    {
+      "sha": "35a49aba4e8beea8b855e4386a6a0501919bbfd3",
+      "date": "2025-12-17T18:40:39-05:00",
+      "message": "feat(board): enhance detail panel with full dependency info (bv-kklp)",
+      "beads_added": [
+        "bv-yg39"
+      ]
+    },
+    {
+      "sha": "8e34ce6e7e44f9c3d7892b292a35e62789a695ec",
+      "date": "2025-12-17T18:47:16-05:00",
+      "message": "test(tutorial): add comprehensive tutorial system tests (bv-j4og)",
+      "beads_added": [
+        "bv-j4og"
+      ]
+    },
+    {
+      "sha": "10503ce852ea5df531f4ed72c728d52f1cccc8a2",
+      "date": "2025-12-17T20:25:46-05:00",
+      "message": "fix(board): reset detail panel cache on SetIssues",
+      "beads_added": [
+        "bv-5bqh",
+        "bv-naov"
+      ]
+    },
+    {
+      "sha": "60dabe289496a427397acc6a63846e7b13acb4de",
+      "date": "2025-12-17T20:31:53-05:00",
+      "message": "feat(board): add filter keys (o/c/r) to board view (bv-naov)",
+      "beads_added": [
+        "bv-wjs0"
+      ]
+    },
+    {
+      "sha": "04c640a294e955231d5265233073287a1ea11534",
+      "date": "2025-12-17T20:35:12-05:00",
+      "message": "feat(bv-5bqh): implement Session Preview Modal (V key)",
+      "beads_added": [
+        "bv-5bqh"
+      ]
+    },
+    {
+      "sha": "0c2332198944237aba0e947f95b0ba9ba4807519",
+      "date": "2025-12-17T20:37:03-05:00",
+      "message": "feat(bv-wjs0): add swimlane grouping modes to board view",
+      "beads_added": [
+        "bv-v67w"
+      ]
+    },
+    {
+      "sha": "bafb02f1d941071598781903e0b70f76937e1d6c",
+      "date": "2025-12-17T20:37:46-05:00",
+      "message": "fix(export): add BV_NO_BROWSER check to OpenCloudflareInBrowser",
+      "beads_added": [
+        "bv-wjs0",
+        "bv-y836"
+      ]
+    },
+    {
+      "sha": "8c18b66c01373de81547af076be59d4410861141",
+      "date": "2025-12-17T20:43:11-05:00",
+      "message": "feat(bv-y836): add status bar session indicator",
+      "beads_added": [
+        "bv-y836",
+        "bv-v67w"
+      ]
+    },
+    {
+      "sha": "8855d76f67556c672c924cdf32543ff4592aa2b1",
+      "date": "2025-12-17T20:45:30-05:00",
+      "message": "docs(history): expand context help with all keyboard shortcuts (bv-35qc)",
+      "beads_added": [
+        "bv-35qc"
+      ]
+    },
+    {
+      "sha": "f2798820dccdf123012aa828322a04c69f14df2b",
+      "date": "2025-12-17T20:50:38-05:00",
+      "message": "feat(correlation): add correlation confidence audit (bv-e1u6)",
+      "beads_added": [
+        "bv-e1u6"
+      ]
+    },
+    {
+      "sha": "8b500f17eeab8569c01dcda71d3a4ab038cf0330",
+      "date": "2025-12-17T21:01:37-05:00",
+      "message": "fix(cass-modal): fix copied flag and navigation bounds bugs",
+      "beads_added": [
+        "bv-we18"
+      ]
+    },
+    {
+      "sha": "9fe658580d22246d27f46ca11ead835106c1fa20",
+      "date": "2025-12-17T21:01:51-05:00",
+      "message": "test(bv-we18): comprehensive context help coverage tests",
+      "beads_added": [
+        "bv-jdop"
+      ]
+    },
+    {
+      "sha": "30501b3d321bba92c3222d0c32475b92cb009ecc",
+      "date": "2025-12-17T21:09:56-05:00",
+      "message": "test(bv-0d11): comprehensive tutorial page rendering validation",
+      "beads_added": [
+        "bv-0d11"
+      ]
+    },
+    {
+      "sha": "d8c01673b20034748329ae104c6cd75459217b5f",
+      "date": "2025-12-17T21:36:56-05:00",
+      "message": "fix(pages-export): resolve graph view initialization and error handling",
+      "beads_added": [
+        "bv-1x6o"
+      ]
+    },
+    {
+      "sha": "4d73a9c0b66c07a679bbe187250f3f9bdb3cd322",
+      "date": "2025-12-17T21:41:25-05:00",
+      "message": "test(bv-cw1u): add comprehensive history view test suite",
+      "beads_added": [
+        "bv-4agf",
+        "bv-nlo0",
+        "bv-cw1u"
+      ]
+    },
+    {
+      "sha": "b18a1cfc43d0c3c110983683592898ece83bcc5b",
+      "date": "2025-12-17T21:46:11-05:00",
+      "message": "feat(bv-nlo0): implement blocker chain visualization and --robot-blocker-chain command",
+      "beads_added": [
+        "bv-nlo0"
+      ]
+    },
+    {
+      "sha": "c83278c328d0aeecc01db77653266f5d853d8184",
+      "date": "2025-12-17T21:47:36-05:00",
+      "message": "test(board): add comprehensive board view test suite (bv-4agf)",
+      "beads_added": [
+        "bv-4agf"
+      ]
+    },
+    {
+      "sha": "b51608ccc3ad2e202171fc26aaea130acddcaf83",
+      "date": "2025-12-17T21:51:54-05:00",
+      "message": "feat(bv-1x6o): add timeline visualization panel to history view",
+      "beads_added": [
+        "bv-48kr"
+      ]
+    },
+    {
+      "sha": "0a7e46a41858bff9b3af952ecb63ba0b82db08ec",
+      "date": "2025-12-17T21:57:20-05:00",
+      "message": "fix(bv-1x6o): use UTF-8 safe truncation in timeline panel",
+      "beads_added": [
+        "bv-t4yg"
+      ]
+    },
+    {
+      "sha": "772902940974066f1e7c07c72528ddd29d6e3dff",
+      "date": "2025-12-17T22:04:05-05:00",
+      "message": "feat(bv-48kr): implement impact network graph for bead correlation",
+      "beads_added": [
+        "bv-jtdl"
+      ]
+    },
+    {
+      "sha": "053999deb1f858eefa729de24eb072c6474aac1b",
+      "date": "2025-12-17T22:09:55-05:00",
+      "message": "feat(bv-nl8a): add column statistics to board headers",
+      "beads_added": [
+        "bv-nl8a",
+        "bv-48kr"
+      ]
+    },
+    {
+      "sha": "c6c8197bfcca9fa8fff985dda4a0e311ad6bc8e5",
+      "date": "2025-12-17T22:14:09-05:00",
+      "message": "feat(bv-t4yg): add enhanced heatmap visualization with navigation",
+      "beads_added": [
+        "bv-nl8a"
+      ]
+    },
+    {
+      "sha": "1c92d8ff2492abdbf9d7b9af38a26837f78c0069",
+      "date": "2025-12-17T22:16:28-05:00",
+      "message": "feat(bv-jtdl): implement related work discovery for beads",
+      "beads_added": [
+        "bv-jtdl",
+        "bv-t4yg"
+      ]
+    },
+    {
+      "sha": "b827f641aec2fea355878c93c9c2c27cd1e3bfaa",
+      "date": "2025-12-17T22:34:06-05:00",
+      "message": "feat(bv-tf6j): implement smart empty column handling for board view",
+      "beads_added": [
+        "bv-j74w",
+        "bv-190l",
+        "bv-tf6j"
+      ]
+    },
+    {
+      "sha": "f975c2944564ae75d165b9dacf53157e0a3120ae",
+      "date": "2025-12-17T22:42:02-05:00",
+      "message": "feat(bv-190l): implement file-centric drill-down in History view",
+      "beads_added": [
+        "bv-tf6j"
+      ]
+    },
+    {
+      "sha": "966f51338ec42ce6e6cc70fe5bb151e581d97928",
+      "date": "2025-12-17T22:55:09-05:00",
+      "message": "feat(bv-i3ii): add inline card expansion in Board view",
+      "beads_added": [
+        "bv-i3ii"
+      ]
+    },
+    {
+      "sha": "56f91ad2589dcf8fc418373acdc79240dad1ae71",
+      "date": "2025-12-17T23:02:18-05:00",
+      "message": "fix(bv-j74w,bv-i3ii): address code review bugs in causality and board",
+      "beads_added": [
+        "bv-pr1l"
+      ]
+    },
+    {
+      "sha": "db435cf4059d7f9110953bd152b5ea27b516b8d4",
+      "date": "2025-12-17T23:18:12-05:00",
+      "message": "feat(bv-kvlx): add view mode toggle animation in History view",
+      "beads_added": [
+        "bv-kvlx"
+      ]
+    },
+    {
+      "sha": "6921e11e17ed4e448f6ad548afa3e17dbefb8132",
+      "date": "2025-12-18T00:19:21-05:00",
+      "message": "feat: auto-add .bv to .gitignore and fix TUI spacing",
+      "beads_added": [
+        "bv-fj2t",
+        "bv-9op9",
+        "bv-ib7j"
+      ]
+    },
+    {
+      "sha": "da5a57bc67e81a549fd66ff8c529e0bd22f8c1e3",
+      "date": "2025-12-18T00:25:59-05:00",
+      "message": "feat(e2e): add comprehensive AGENTS.md integration E2E tests",
+      "beads_added": [
+        "bv-qnlb",
+        "bv-ib7j"
+      ]
+    },
+    {
+      "sha": "3239c29adb1d1be79398ae3ff844135fad041d72",
+      "date": "2025-12-18T00:28:49-05:00",
+      "message": "feat(bv-qnlb): add comprehensive E2E tests for pages export options",
+      "beads_added": [
+        "bv-qnlb",
+        "bv-4hds"
+      ]
+    },
+    {
+      "sha": "969e526605b97188184941f241c1ca138799db77",
+      "date": "2025-12-18T00:37:33-05:00",
+      "message": "fix(e2e): skip read-only directory test on Windows",
+      "beads_added": [
+        "bv-i1vw",
+        "bv-pr1l"
+      ]
+    },
+    {
+      "sha": "e69bef6efce03fde1b3507bdf84b5ff40f02c30d",
+      "date": "2025-12-18T00:42:12-05:00",
+      "message": "feat(bv-i1vw): add comprehensive cass integration safety tests",
+      "beads_added": [
+        "bv-l3rn",
+        "bv-1d4i",
+        "bv-ztct",
+        "bv-xymv"
+      ]
+    },
+    {
+      "sha": "a0d7169bd146a1fa15d2700ef82be367171af402",
+      "date": "2025-12-18T00:47:23-05:00",
+      "message": "feat(bv-643f): add pre-computed graph layout + detail pane for pages export",
+      "beads_added": [
+        "bv-6647"
+      ]
+    },
+    {
+      "sha": "0277fa4bad7f5e2d08e1df69cfa20b6e0e9196d1",
+      "date": "2025-12-18T02:11:46-05:00",
+      "message": "docs: comprehensive Board View section overhaul (bv-l3fe)",
+      "beads_added": [
+        "bv-l3fe"
+      ]
+    },
+    {
+      "sha": "21a9013cf3abc611896b38818f440ab26e16520e",
+      "date": "2025-12-18T02:15:53-05:00",
+      "message": "docs(bv-s57m): comprehensive README updates for recent features",
+      "beads_added": [
+        "bv-5goj",
+        "bv-0s5y",
+        "bv-ezeu",
+        "bv-158k"
+      ]
+    },
+    {
+      "sha": "56b2761e58026a44c2bae25328c0e674a8723f75",
+      "date": "2025-12-18T02:20:31-05:00",
+      "message": "test(bv-af35): add E2E tests for swimlane mode cycling",
+      "beads_added": [
+        "bv-af35",
+        "bv-bftf",
+        "bv-q9km"
+      ]
+    },
+    {
+      "sha": "5570df5f565e90583af20eeac3be028d6deac868",
+      "date": "2025-12-18T02:21:10-05:00",
+      "message": "chore(bv-s57m): sync beads + network test additions",
+      "beads_added": [
+        "bv-neqg"
+      ]
+    },
+    {
+      "sha": "8ee1bf414976d29cb0ab1892f655b5f189273f84",
+      "date": "2025-12-18T02:24:39-05:00",
+      "message": "test(bv-ipqb): add E2E tests for correlation features",
+      "beads_added": [
+        "bv-ipqb",
+        "bv-neqg",
+        "bv-qr24"
+      ]
+    },
+    {
+      "sha": "954309aac46a2f3158a8c205006ce11a75a26f2f",
+      "date": "2025-12-18T02:37:32-05:00",
+      "message": "test: add comprehensive tests for file tree, timeline, and detail pane features",
+      "beads_added": [
+        "bv-s57m",
+        "bv-mhfz",
+        "bv-vufr",
+        "bv-qr24"
+      ]
+    },
+    {
+      "sha": "a3ff0887f45b32a5e4f92f314159f08d12066302",
+      "date": "2025-12-18T19:54:27-05:00",
+      "message": "fix(ui,test): escape key closes label dashboard + drift test build fix",
+      "beads_added": [
+        "bv-xbar.9",
+        "bv-xbar.13",
+        "bv-xbar",
+        "bv-xbar.4",
+        "bv-xbar.12",
+        "bv-xbar.7",
+        "bv-xbar.11",
+        "bv-xbar.2",
+        "bv-xbar.5",
+        "bv-xbar.14",
+        "bv-xbar.6",
+        "bv-xbar.8",
+        "bv-xbar.10",
+        "bv-xbar.3",
+        "bv-xbar.1"
+      ]
+    },
+    {
+      "sha": "04299d69bd9d21fc5b41aa1a219ce0a0c3b750c3",
+      "date": "2025-12-18T20:20:03-05:00",
+      "message": "fix(ui): clear isHistoryView when switching to other views",
+      "beads_added": [
+        "bv-vur1"
+      ]
+    }
+  ]
+}
